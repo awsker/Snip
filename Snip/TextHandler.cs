@@ -132,7 +132,7 @@ namespace Winter
 
         public static void UpdateText(string title, string artist, string album, string trackId, string json)
         {
-            string output = Globals.TrackFormat + Globals.SeparatorFormat + Globals.ArtistFormat;
+            string output = Globals.TrackFormat + Globals.SeparatorFormat + Globals.ArtistFormat + Globals.SeparatorFormat + album;
 
             if (!string.IsNullOrEmpty(title))
             {
