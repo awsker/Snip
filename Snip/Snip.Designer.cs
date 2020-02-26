@@ -7,7 +7,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSnipVersion;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSpotify;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemItunes;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSetFormat;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
@@ -64,7 +63,6 @@
             this.toolStripMenuItemSnipVersion = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemSpotify = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItemItunes = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemSetFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -97,7 +95,6 @@
             this.toolStripMenuItemSnipVersion,
             this.toolStripSeparator,
             this.toolStripMenuItemSpotify,
-            this.toolStripMenuItemItunes,
             this.toolStripSeparator1,
             this.toolStripMenuItemSetFormat,
             this.toolStripSeparator2,
@@ -129,13 +126,6 @@
             this.toolStripMenuItemSpotify.Size = new System.Drawing.Size(67, 22);
             this.toolStripMenuItemSpotify.Text = LocalizedMessages.Spotify;
             this.toolStripMenuItemSpotify.Click += new System.EventHandler(this.PlayerSelectionCheck);
-            // 
-            // toolStripMenuItemItunes
-            // 
-            this.toolStripMenuItemItunes.Name = "toolStripMenuItemItunes";
-            this.toolStripMenuItemItunes.Size = new System.Drawing.Size(67, 22);
-            this.toolStripMenuItemItunes.Text = LocalizedMessages.Itunes;
-            this.toolStripMenuItemItunes.Click += new System.EventHandler(this.PlayerSelectionCheck);
             // 
             // toolStripSeparator
             // 

@@ -224,16 +224,11 @@ namespace Winter
             {
                 this.TogglePlayer(Globals.MediaPlayerSelection.Spotify);
             }
-            else if (sender == this.toolStripMenuItemItunes)
-            {
-                this.TogglePlayer(Globals.MediaPlayerSelection.Itunes);
-            }
         }
 
         private void TogglePlayer(Globals.MediaPlayerSelection player)
         {
             this.toolStripMenuItemSpotify.Checked    = player == Globals.MediaPlayerSelection.Spotify;
-            this.toolStripMenuItemItunes.Checked     = player == Globals.MediaPlayerSelection.Itunes;
 
             Globals.CurrentPlayer.Unload();
             string playerName = string.Empty;
@@ -243,10 +238,6 @@ namespace Winter
                 case Globals.MediaPlayerSelection.Spotify:
                     Globals.CurrentPlayer = new Spotify();
                     playerName = LocalizedMessages.Spotify;
-                    break;
-                case Globals.MediaPlayerSelection.Itunes:
-                    Globals.CurrentPlayer = new Itunes();
-                    playerName = LocalizedMessages.Itunes;
                     break;
                 default:
                     break;

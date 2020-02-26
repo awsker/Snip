@@ -88,8 +88,7 @@ namespace Winter
 
         public enum MediaPlayerSelection : int
         {
-            Spotify = 0,
-            Itunes = 1
+            Spotify = 0
         }
 
         public enum MediaCommand : int
